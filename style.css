@@ -1,0 +1,118 @@
+body
+{
+    background-color: #CC9544;
+}
+header
+{
+    background-color: #1C0A00;
+    color: white;
+    font-family: 'Playfair Display SC', serif;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+.logoimg
+{
+    padding-top: 5px;
+    transition: 0.5s;
+}
+.logoimg:hover
+{
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+#logotext1
+{
+    font-size: 35px;
+}
+#logotext1:hover .logoimg
+{
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+.navbarcss1
+{
+    background-color: #603601;
+    color: rgb(216, 206, 231);
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+.navlinks1
+{
+    color: white;
+}
+#homebtn
+{
+    color: white;
+}
+.mainimgdiv
+{
+    opacity: 1;
+    background-image: url("./images/coffeeshop1.jpg");
+    height: 410px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+}
+.imgntext1
+{
+    background-color: #CC954499;
+    width: 40%;
+}
+.btns1
+{
+
+}
+.maintext1
+{
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.mntxt1
+{
+    text-decoration: none;
+    color: black;
+    background-image: linear-gradient(90deg,#603601,#1C0A00);
+    background-size: 0% 2px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    transition: background-size 1s ease;
+}
+.mntxt1:hover
+{
+    background-size: 100% 3px;
+    font-weight: 500;
+}
+.mainbtn1
+{
+    box-shadow: 0 4px 8px 0 rgba(30, 4, 2, 1.66), 0 6px 20px 5px rgba(28, 26, 2, 1.66);
+    background-color: #603601;
+    /* margin-right: 12px; */
+}
+.mainbtn2
+{
+    box-shadow: 0 4px 8px 0 rgba(30, 4, 2, 1.66), 0 6px 20px 5px rgba(28, 26, 2, 1.66);
+    background-color: #361500;
+}
+footer
+{
+    background-color: #361500;
+}
+#footerlogotext
+{
+    font-family: 'Playfair Display SC', serif;
+}
+.query1
+{
+    /* background-color: #603601; */
+}
+.acdrn1
+{
+    transition: 1.5s ease;
+}
+
